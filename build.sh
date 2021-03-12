@@ -40,5 +40,5 @@ build(){
     make yaap -j$(nproc --all)
 }
 
-prepare()
-build()
+prepare
+build
